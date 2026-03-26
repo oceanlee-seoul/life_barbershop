@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -fsSL https://bun.sh/install)",
+      "Bash(bash)",
+      "Read(//Users/oceanlee/.claude/skills/gstack/**)",
+      "Bash(~/.bun/bin/bun run:*)",
+      "Bash(~/.bun/bin/bun ./setup)",
+      "Bash(PATH=\"$PATH:$HOME/.bun/bin\" bash ./setup)",
+      "Bash(for skill:*)",
+      "Bash(do echo:*)",
+      "Bash(cp -Rf ~/.claude/skills/gstack /Users/oceanlee/Projects/life_barbershop/.claude/skills/gstack)",
+      "Bash(rm -rf /Users/oceanlee/Projects/life_barbershop/.claude/skills/gstack/.git)",
+      "Bash(mkdir -p /Users/oceanlee/Projects/life_barbershop/.claude/skills)",
+      "Bash(.claude/skills/gstack/bin/gstack-config set:*)",
+      "WebSearch"
+    ]
+  }
+}
